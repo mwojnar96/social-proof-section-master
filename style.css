@@ -64,11 +64,31 @@ body {
 
 .review {
   background-color: hsl(300, 43%, 22%);
-  border-radius: 10px;
   color:hsl(300, 24%, 96%);
+  border-radius: 10px;
   text-align: left;
   padding: 20px 25px;
   line-height: 20px;
+  letter-spacing: 0.65px;
+}
+
+.review p {
+  margin-top: 15px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.user p {
+  margin-left: 20px;
 }
 
 .name {
